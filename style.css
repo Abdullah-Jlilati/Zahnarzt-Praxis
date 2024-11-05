@@ -1,0 +1,152 @@
+/* Navigationsleiste*/
+nav {
+  background-color: #04493f;
+  padding: 0.7em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #be2c42;
+}
+
+/* Allergemein Einstellungen*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* header*/
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Dienstleistungen*/
+#services {
+  padding: 2em;
+  text-align: center;
+}
+
+#services h2 {
+  margin-bottom: 2em;
+  color: #4caf50;
+}
+
+.service {
+  display: inline-block;
+  width: 30%;
+  margin: 1em;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+}
+
+.service h3 {
+  margin: 0.5em 0;
+  color: #4caf50;
+}
+
+/* kontakt*/
+
+#contact {
+  background-color: #eee;
+  padding: 1em;
+  text-align: center;
+}
+.contact-button {
+  display: inline-block;
+  padding: 0.6em 1.3em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+}
+
+/* icons*/
+#social-icons {
+  text-align: center;
+  padding: 1em;
+  background-color: #04493f;
+}
+
+#social-icons a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#social-icons a:hover {
+  color: #be2c42;
+}
+
+.service img {
+  transition: transform 0.3s;
+}
+
+.service img:hover {
+  transform: scale(1.05);
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 35px;
+  right: 3px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+h1,
+h2,
+p {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}

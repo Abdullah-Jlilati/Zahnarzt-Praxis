@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(202, 206, 85, 0.196);
+}
+
+div h1 {
+  background-color: #c9ebc082;
+  color: white;
+  padding: 0.1em;
+  text-align: center;
+  margin: auto;
+}
+.über-uns {
+  color: rgb(0, 0, 0);
+}
+
+div p {
+  text-align: center;
+  color: rgb(28, 112, 196);
+  text-align: justify;
+}
